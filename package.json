@@ -1,0 +1,22 @@
+{
+  "name": "bai11",
+  "version": "1.0.0",
+  "description": "configure static file and scss",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon --inspect src/app.js",
+    "watch": "node-sass --watch src/resources/scss/ --output src/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NhanHuynh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^8.0.0"
+  }
+}

@@ -1,0 +1,20 @@
+{{!-- <form method="get" action="/bai11">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">search</label>
+    <input type="text" name="q" class="form-control" id="exampleInputEmail1">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form> --}}
+{{!-- hanh quy mac dinh cua submit se them param vao trong file dang chua method --}}
+
+
+<form method="POST" action="">
+  {{!-- action rong => render web chinh 
+  khác nhau giữa get và post
+  get sẽ đính value lên url dưới dạng querry para còn post thì ko. Vì vậy nếu muốn bảo vệ các dữ liệu nhạy cảm vd mkau  hãy dùng post--}}
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">search</label>
+    <input type="text" name="q" class="form-control" id="exampleInputEmail1">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
